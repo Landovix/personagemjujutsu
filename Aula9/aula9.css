@@ -13,21 +13,43 @@
 }
 .container-principal {
     display: flex;
-    flex-direction: column;
+    flex-direction:column
 }
 .container-vde{
     width: 100%;
     height: 150px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    align-items: center;
+    align-items: top;
     justify-items: center;
     padding-left: 80px;
 }
 .container-atributos {
     display: flex;
-    flex-direction: column;
     align-items: left;
     justify-content: space-between;
     padding-left: 30px;
+    flex-wrap: wrap;
+    width: 300px;
+}
+.container-imagem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.biografia{
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    justify-content: space-between;
+    padding-left: 30px;
+    flex-wrap: wrap;
+    
+}
+.atributos{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.copyright{
+    text-align: center;
 }
